@@ -8,11 +8,11 @@ import { Component, Input, OnInit } from '@angular/core';
 export class BigCardComponent implements OnInit {
 
   @Input()
-  photoCover:string =""
+  photoCover:string ="https://colbybryant.com/wp-content/uploads/2018/03/iron_man_featured_image.jpg?w=1200"
   @Input()
-  cardTitle:string= ""
+  cardTitle:string= "NOVO HOMEM DE FERRO"
   @Input()
-  cardDescription:string =""
+  cardDescription:string ="Marvel studios anuncia novo filme do homem de ferro"
   @Input()
   Id:string="0"
 
